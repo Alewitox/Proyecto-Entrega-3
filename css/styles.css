@@ -1,0 +1,648 @@
+#html{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#jumbo-header{
+    background-image: url(../img/Logo_breaking_bad.png);
+    background-size: 100% 100%;
+    min-height: 300px;
+    margin-bottom: 0%;
+}
+
+
+#navbar{
+    background-color: #1C3F27;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color:#1C3F27;
+}
+
+
+
+#inicio{
+    color: white;
+}
+#personajes{
+    color: white;
+}
+#temporadas{
+    color: white;
+}
+#curiosidades{
+    color: white;
+}
+#galeria{
+    color: white;
+}
+#formulario{
+    color: white;
+}
+#memory{
+    color: white;
+}
+#temporada1{
+    color: white;
+}
+#temporada2{
+    color: white;
+}
+#temporada3{
+    color: white;
+}
+#temporada4{
+    color: white;
+}
+#temporada5{
+    color: white;
+}
+#parrafo1{
+    text-align: justify;
+}
+
+#parrafo2{
+    text-align: justify;
+}
+
+#parrafo3{
+    text-align: justify;
+}
+
+#tabla1{
+    margin: 100px auto 100px;
+}
+
+#walterpj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#jessepj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#skylarpj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+#hankpj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+#mariepj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#mikepj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#saulpj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#guspj{
+    width: 105%;
+    height: 85%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+#walterpjtexto{
+    text-align: justify;
+}
+
+#jessepjtexto{
+    text-align: justify;
+}
+
+#skylarpjtexto{
+    text-align: justify;
+}
+
+#hankpjtexto{
+    text-align: justify;
+}
+
+#mariepjtexto{
+    text-align: justify;
+}
+#mikepjtexto{
+    text-align: justify;
+}
+#saulpjtexto{
+    text-align: justify;
+}
+#guspjtexto{
+    text-align: justify;
+}
+#temp1{
+    text-align: justify;
+}
+#temp2{
+    text-align: justify;
+}
+#temp3{
+    text-align: justify;
+}
+#temp4{
+    text-align: justify;
+}
+#temp5{
+    text-align: justify;
+}
+.table{
+    text-align: center;
+}
+#name{
+    width: 265px;
+}
+#lastname{
+    width: 265px;
+}
+#address{
+    width: 265px;
+}
+#genero{
+    width: 180px;
+}
+#age{
+    width: 115px;
+}
+#comentario{
+    width: 340px;
+}
+#pjfavorito{
+    width: 180px;
+}
+#tempfav{
+    width: 180px;
+}
+#epifav{
+    width: 180px;
+}
+#proteccion{
+    text-align: justify;
+    font-size: 12px;
+}
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+}
+
+
+.colorTable-Title{
+    background-color: #cccc00;
+   
+}
+.colorTable-Body{
+    background-color: rgb(233, 233, 179);
+}
+
+
+#meth{
+    text-align: justify;
+}
+#methimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#loteria{
+    text-align: justify;
+}
+#loteriaimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px; 
+}
+#alter{
+    text-align: justify;
+}
+#alterimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px; 
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 0.4px 0;
+    margin: 5px 0;
+  }
+#huelga{
+    text-align: justify;
+}
+#huelgaimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#azucar{
+    text-align: justify;
+}
+#azucarimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#casa{
+    text-align: justify;
+}
+#casaimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#samario{
+    text-align: justify;
+}
+#samarioimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#felina{
+    text-align: justify;
+}
+
+#felinaimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#norris{
+    text-align: justify;
+}
+#norrisimg{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#galeria1{
+    width: 465px;
+    height: 350px;  
+}
+#g1{
+   
+    margin-top: 20px;
+}
+#g2{
+   
+    margin-top: 20px;
+}
+#g3{
+   
+    margin-top: 20px;
+}
+#g4{
+   
+    margin-top: 20px;
+}
+#g5{
+  
+    margin-top: 15px;
+}
+#g6{
+    
+    margin-top: 15px;
+}
+#g7{
+   
+    margin-top: 15px;
+}
+#g8{
+   
+    margin-top: 15px;
+}
+#g9{
+    
+    margin-top: 15px;
+}
+#g10{
+    
+    margin-top: 15px;
+}
+#g11{
+   
+    margin-top: 15px;
+}
+#g12{
+   
+    margin-top: 15px;
+}
+#g13{
+   
+    margin-top: 20px;
+}
+#g14{
+   
+    margin-top: 20px;
+}
+#g15{
+   
+    margin-top: 20px;
+}
+#g16{
+   
+    margin-top: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#bryanindex{
+    margin-bottom: 5px;
+}
+#Jesse{
+    margin-bottom: 5px;
+}
+#Anna{
+    margin-bottom: 5px;
+}
+#Dean{
+    margin-bottom: 5px;
+}
+
+#bryanh6{
+    text-align: center;
+}
+#bryanp{
+    text-align: center;
+    margin-top: -7px;
+}
+#aaronh6{
+    text-align: center;
+}
+#aaronp{
+    text-align: center;
+    margin-top: -7px;
+}
+#annah6{
+    text-align: center;
+}
+#annap{
+    text-align: center;
+    margin-top: -7px;
+}
+#deanh6{
+    text-align: center;
+}
+#deanp{
+    text-align: center;
+    margin-top: -7px;
+}
+
+
+
+#scrollspy{
+    background-color: #1C3F27;
+}
+#inicio2{
+    color: white;
+    font-size: 18px;
+}
+#curi13{
+    color: white;
+}
+#curi46{
+    color: white;
+}
+#curi79{
+    color: white;
+}
+
+.nav-pills > li > a.active {
+    background-color: #818314!important;
+}
+
+
+#sabias{
+    text-align: center;
+}
+
+.fa.fa-navicon {
+    color:white;
+
+
+}
+.fas.fa-home {
+    color:white;
+
+}
+
+.navbar a:hover {
+    background-color: #818314;
+    color: black;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#main-content{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+    
+    }
+#main-content-anniversary{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+}
+
+.responsive{
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+
+}
+
+.responsive iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#error-nombre, #error-apellido, #error-email, #error-edad, #error-comment, #error-gender, #error-recommendation, 
+#error-newsletter, #error-consent, #error-eligepj, #error-eligefav, #error-eligeepi{
+    color: red;
+    display: none;
+}
+
+
+
+
+.fa-twitter {
+    background: white;
+    color: #7AD810;
+    margin-right: 50px;
+    padding: 15px;
+    font-size: 30px;
+    width: 63px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+
+  .fa-facebook {
+    background: white;
+    color: #7AD810;
+    margin-right: 50px;
+    padding: 15px;
+    font-size: 30px;
+    width: 63px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-youtube {
+    background: white;
+    color: #7AD810;
+    padding: 15px;
+    font-size: 30px;
+    width: 63px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: white;
+    color: #7AD810;
+    margin-left: 50px;
+    padding: 15px;
+    font-size: 30px;
+    width: 63px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+
+  .fab:hover {
+    opacity: 1;
+    outline: 0;
+    color: #7AD810;
+    
+    
+  }
+
+  
+  a:link {
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-tabs{
+      display: block;
+    }
+  }
+
+ #social-media{
+     text-align: center;
+     margin:auto;
+     margin-top: 50px;
+ }
+
+ #social-buttons{
+     background: #1C3F27;
+     margin-bottom: 0%;
+     margin-top: 30px;
+     padding: 1.2em;
+ }
+
+
+
+
+
+ #social-media-sm{
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+}
+
+#social-buttons-sm{
+    background: #1C3F27;
+    margin-bottom: 0%;
+    margin-top: 30px;
+    padding: 0.8em;
+}
+
+
+#twitter-sm {
+    background: white;
+    color: #7AD810;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#facebook-sm {
+    background: white;
+    color: #7AD810;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#youtube-sm {
+    background: white;
+    color: #7AD810;
+    padding: 15px;
+    font-size: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#instagram-sm {
+    background: white;
+    color: #7AD810;
+    margin-left: 15px;
+    padding: 15px;
+    font-size: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}

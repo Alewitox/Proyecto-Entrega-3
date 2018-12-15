@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/halloween.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/halloween.js" async></script>
+
+    
+</head>
+
+<body>
+    <a href="index.html">
+    <h1 class="page-title" title="Click para volver a inicio">Un poco de terror siempre es necesario</h1>
+    </a>
+
+    <div class="overlay-text visible">
+        Click para empezar
+    </div>
+    
+    <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small">Click para volver a jugar</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+        HAS GANADO
+        <span class="overlay-text-small">Click para volver a jugar</span>
+    </div>
+
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Movimientos <span id="flips">0</span>
+            </div>
+            <div class="game-info">
+                Tiempo <span id="time-remaining">100</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider"  src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Bat.png" alt="murcielago">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Bat.png" alt="murcielago">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Bones.png" alt="huesos">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Bones.png" alt="huesos">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Cauldron.png" alt="caldera">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Cauldron.png" alt="caldera">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Eye.png" alt="luna">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Eye.png" alt="luna">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Skull.png" alt="calavera">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Skull.png" alt="calavera">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Pumpkin.png" alt="calabaza">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Pumpkin.png" alt="calabaza">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Ghost.png" alt="fantasma">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Ghost.png" alt="fantasma">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Dracula.png" alt="dracula">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/Cobweb.png" alt="telaraña">
+                <img class="spider" src="Game/Images/Spider.png" alt="araña">
+            </div>
+            <div class="card-front card-face">
+                <img class="cob-web cob-web-top-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-top-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-left" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="cob-web cob-web-bottom-right" src="Game/Images/CobwebGrey.png" alt="telaraña">
+                <img class="card-value" src="Game/Images/Dracula.png" alt="dracula">
+            </div>
+        </div>
+    </div>
+   
+    <button class="change-color center" type="button" id="button1">Cambiar fondo </button>
+<br><br>
+
+
+</body>
+
+</html>

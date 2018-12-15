@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personajes</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+  <!--Jumbotron-->
+  <a href="index.html">
+    <div class="jumbotron jumbotron-fluid" id="jumbo-header">
+    </div>
+  </a>
+
+  <!--Barra de Navegación-->
+  <nav id="navbar" class="navbar navbar-expand-sm ">
+
+    <a id="inicio" class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <i class="fa fa-navicon"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a id="personajes" class="nav-link" href="Personajes.html">Personajes</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a id="temporadas" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+            Temporadas
+          </a>
+          <!-- Dropdown -->
+          <div id="dropdown" class="dropdown-menu">
+            <a id="temporada1" class="dropdown-item" href="Temporada1.html">Temporada 1</a>
+            <a id="temporada2" class="dropdown-item" href="Temporada2.html">Temporada 2</a>
+            <a id="temporada3" class="dropdown-item" href="Temporada3.html">Temporada 3</a>
+            <a id="temporada4" class="dropdown-item" href="Temporada4.html">Temporada 4</a>
+            <a id="temporada5" class="dropdown-item" href="Temporada5.html">Temporada 5</a>
+          </div>
+        </li>
+      </ul>
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a id="curiosidades" class="nav-link" href="Curiosidades.html">Curiosidades</a>
+        </li>
+        <li class="nav-item">
+          <a id="galeria" class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a id="formulario" class="nav-link" href="Formulario.html">Formulario</a>
+        </li>
+        <li class="nav-item">
+          <a id="memory" class="nav-link" href="halloween.html">Memory</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+
+  <!-- Nav tabs -->
+  <div class="container-fluid nav-justified">
+    <ul class="nav nav-tabs nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active text-success" data-toggle="tab" href="#Walter"><b>Walter White</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Jesse"><b>Jesse Pinkman</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Skylar"><b>Skylar White</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Hank"><b>Hank Schrader</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Marie"><b>Marie Schrader</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Mike"><b>Mike Ehrmantraut</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Saul"><b>Saul Goodman</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-success" data-toggle="tab" href="#Gus"><b>Gus Fring</b></a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane container active" id="Walter">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="walterpj" class="img-fluid rounded center" src="img/pj1.jpg" alt="Walter White" />
+          </div>
+          <div id="walterpjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Walter "Walt" Hartwell White, también conocido por su seudónimo
+                clandestino "Heisenberg", es un químico y profesor de química de Albuquerque, Nuevo México que, tras
+                ser
+                diagnosticado con cáncer de pulmón inoperable, decide empezar a fabricar metanfetamina para poder
+                mantener a su
+                familia provista de cara al futuro.</p>
+              <p>Walt era un químico prometedor que contribuyó en el auge de la compañía multimillonaria Gray Matter
+                Technologies, pero salió de la empresa de forma abrupta vendiendo su parte de la misma por cinco mil
+                dólares. Los fundadores Elliott y Gretchen Schwartz se casan y hacen una fortuna, mientras que Walt les
+                acusa de apoderarse de sus contribuciones para tener éxito sin darle ningún crédito.</p>
+              <p>Sin saber nada sobre el tráfico de drogas, Walt obtiene la ayuda de un ex-estudiante suyo, Jesse
+                Pinkman, para la fabricación y sobre todo para la venta de la droga. Su conocimiento científico y
+                dedicación a la calidad le hacen producir metanfetamina a un nivel de pureza insuperable. Walt lleva a
+                cabo un proceso alternativo utilizando metilamina, lo cual otorga a su producto un distintivo color
+                azul:
+                el cristal azul empieza instantáneamente a dominar el mercado y se hace popular entre traficantes y
+                adictos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Jesse">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="jessepj" class="img-fluid rounded center" src="img/pj2.jpg" alt="Jesse Pinkman" />
+          </div>
+          <div id="jessepjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Jesse Bruce Pinkman es el compañero de Walter White en el tráfico de metanfetamina. En el instituto,
+                Jesse era un consumidor, fabricante y traficante de poca monta de metanfetamina. Era un estudiante que
+                prestaba poca atención a las clases de química de su profesor, el propio Walter. Años después, Jesse se
+                dedica al tráfico de droga con el seudónimo "Cap'n Cook" y añade polvo de chili a su producto para
+                caracterizarlo.</p>
+              <p>Al buscar a Jesse para que trabajen juntos, Walter insiste en hacer un producto más puro, dejando de
+                utilizar la pólvora de chili y enseñando a Jesse a cocinar un mejor producto. A menudo trata a Jesse
+                como
+                un hijo problemático que a menudo necesita que le corrijan. A pesar de la fricción entre ambos, él y
+                Walt
+                tienen una profunda lealtad el uno hacia el otro. La propia familia de Jesse le echó de casa por sus
+                problemas con las drogas.</p>
+              <p>Al igual que Walt, a Jesse le perturba la brutalidad existente en los altos niveles del tráfico de
+                droga, pero hace lo que cree ser necesario. A menudo sufre sentimientos de culpa debido a las muertes
+                de
+                personas con la que se ha asociado, todas relacionadas con el negocio. Ocasionalmente va a reuniones de
+                Narcóticos Anónimos para que le ayuden con estos sentimientos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Skylar">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="skylarpj" class="img-fluid rounded center" src="img/pj3.jpg" alt="Skylar White" />
+          </div>
+          <div id="skylarpjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Skyler White (de soltera Lambert) es la mujer de Walter White y madre de Walter White Jr. y Holly
+                White.
+                Skyler ha tenido múltiples trabajos o actividades para obtener dinero: escribiendo historias cortas,
+                vendiendo objetos en eBay, trabajando como contable en Beneke Fabricators y ayudando a Walt con el
+                local
+                de lavado. Skyler quiere mucho a Walter, pero su matrimonio pasa a tener problemas debido a sus
+                ausencias
+                y su comportamiento extraño, lo cual acaba llevando a su separación.</p>
+              <p>Después, cuando Walt revela sus actividades en el negocio del tráfico de metanfetamina, ella trata de
+                pedir el divorcio, pero acaba haciéndose a la idea e incluso le ayuda con el lavado de su dinero
+                ilícito.
+                Según Walter va haciéndose cada vez más un duro criminal, ella pasa a quedarse asustada por su
+                seguridad
+                y la de los niños e intenta mantenerles lo más lejos posible de su padre.</p>
+              <p>Skyler tiene una hermana, Marie Schrader, casada con Hank Schrader, agente de la DEA que a menudo se
+                encuentra investigando las actividades de su propio cuñado sin ser consciente de ello.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Hank">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="hankpj" class="img-fluid rounded center" src="img/pj4.jpg" alt="Hank Schrader" />
+          </div>
+          <div id="hankpjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Henry R. "Hank" Schrader es el marido de Marie Schrader (hermana de Skyler White) y agente especial a
+                cargo de las oficinas de la DEA en Albuquerque. Un hombre enérgico y bullicioso, Hank es además cuñado
+                de
+                Walter White.</p>
+              <p>A pesar de que es un agente extremadamente competente y que realmente se preocupa por Marie, Walter,
+                Skyler y Walter Jr., su estilo a menudo acaba aislándole del peligro al que se expone diariamente.</p>
+              <p>La investigación de Hank acerca del traficante de metanfetamina conocido como "Heisenberg" — fuente de
+                un cristal azul misterioso y de alta calidad — acaba llevándole a descubrir el imperio de drogas de Gus
+                y
+                a acabar con Gustavo Fring. No obstante, Hank desconoce que "Heisenberg" es el alter-ego de su propio
+                cuñado, Walter. Cuando relaciona a Walter con Gale Boetticher, conocido proveedor de cristal azul para
+                el
+                negocio de Fring, Hank descubre el secreto de Walt y a partir de entonces dedica todos sus esfuerzos en
+                llevarle a la justicia de una vez por todas. Para ello, incluso llega a colaborar con Jesse Pinkman
+                (ex-compañero de Walt en las actividades ilegales) pese al turbulento historial que tiene con él.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Marie">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="mariepj" class="img-fluid rounded center" src="img/pj5.jpg" alt="Marie Schrader" />
+          </div>
+          <div id="mariepjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Marie Schrader (de soltera Lambert) es la hermana de Skyler White y mujer del agente de la DEA Hank
+                Schrader. Marie es muy cercana a su hermana, a pesar de que suele irritar a Skyler el hecho de que esté
+                siempre curioseando, sobre todo. Trabaja como técnica en Kleinman Radiology Center, una oficina de
+                escáneres médicos y de rayos X. Ella y Hank no tienen hijos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Mike">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="mikepj" class="img-fluid rounded center" src="img/pj6.png" alt="Mike Ehrmantraut" />
+          </div>
+          <div id="mikepjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Michael "Mike" Ehrmantraut es el principal secuaz de Gus Fring en su imperio de drogas. También es
+                socio
+                de Saul Goodman, para quien trabaja en diversas ocasiones como investigador privado y para solventar
+                diversos problemas, el hombre al que recurre en situaciones complejas. Con el fin del imperio de Gus,
+                acaba pasando a trabajar con Walter y Jesse en un nuevo negocio. Es un hombre de familia que hace lo
+                que
+                hace por su nieta, Kaylee.</p>
+              <p>Mike es un ex-policía de barrio y un verdadero profesional que dispone de un conocimiento total de
+                pistas forenses, equipamiento de vigilancia y procedimientos policiales. Además, está completamente
+                entrenado para ser frío en diversas situaciones de combate, en las que acaba utilizando ciencia y
+                buenas
+                estrategias para acabar con un gran número de enemigos sin causar alboroto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Saul">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="saulpj" class="img-fluid rounded center" src="img/pj7.png" alt="Saul Goodman" />
+          </div>
+          <div id="saulpjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>James "Jimmy" Morgan McGill, conocido posteriormente como Saul Goodman, es un abogado criminal de
+                Albuquerque conocido en la ciudad por sus peculiares anuncios televisivos que se emiten a altas horas
+                de
+                la noche, en el que menciona su lema, "¡Mejor llama a Saul!".</p>
+              <p>El nombre de Goodman es inventado para atraer a más clientes, ya que Saul Goodman se pronuncia como
+                "it's all good man" (está todo bien, hombre). A pesar de su turbia apariencia, Saul sin duda es un
+                hombre
+                muy competente en sus asuntos criminales, eficiente a la hora de descubrir lagunas legales en casos y
+                capaz de negociar buenos tratos en favor de sus clientes.</p>
+              <p>Tiene una gran familiaridad con el mundo criminal y conexiones con algunos de los más influyentes
+                distribuidores, como Gus Fring. Además, tiene contratados los servicios de un investigador privado
+                veterano llamado Mike, que respeta a Saul simplemente por lo que es y a menudo ejecuta órdenes ilegales
+                para Saul y Gus como limpiar escenas del crimen o espiar a personas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane container fade" id="Gus">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="guspj" class="img-fluid rounded center" src="img/pj8.jpg" alt="Gus Fring" />
+          </div>
+          <div id="guspjtexto" class="col-sm-8 text right ">
+            <div class="container">
+              <br>
+              <p>Gus es uno de las más importantes distribuidores de metanfetamina en el suroeste de los Estados
+                Unidos. Fring posee y opera varios negocios legítimos, incluyendo una cadena de exitosos restaurantes
+                de
+                comida rápida (llamada Los Pollos Hermanos) y un servicio de lavandería industrial, así como también
+                varios frentes encubiertos para una vasta operación sofisticada de drogas y lavado de dinero.</p>
+              <p>Mantiene
+                una apariencia agradable y de bajo perfil, pero toma un papel activo en la gestión de sus negocios de
+                fachada. Personalmente supervisa a sus empleados y sirve a los clientes en sus restaurantes de comida
+                rápida. Con el fin de mantener las apariencias, Gus es miembro de la junta en un hospital en South
+                Valley y colaborador financiero para la DEA, haciendo grandes donaciones a la oficina de Albuquerque de
+                dicha agencia. Sin embargo, Gus es despiadado y maquiavélico en el manejo de su vasto imperio de la
+                droga, y emplea un gran número de ejecutores y asesinos a sueldo, que han eliminado tanto a sus rivales
+                como también a sus propios secuaces.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
